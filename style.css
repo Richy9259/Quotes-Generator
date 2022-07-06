@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.quote-1 {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 11%,
+    rgba(7, 62, 156, 1) 25%,
+    rgba(6, 5, 84, 1) 47%,
+    rgba(9, 9, 121, 1) 53%,
+    rgba(4, 3, 64, 1) 82%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 6em;
+  width: 28em;
+  margin: 0 auto;
+  margin-top: 1em;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px 1px;
+  color: white;
+}
+.quote-1 h1 {
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+#quote {
+  background: rgb(7, 62, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 62, 156, 1) 0%,
+    rgba(2, 0, 36, 1) 39%,
+    rgba(9, 9, 121, 1) 97%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 50%;
+  height: 4em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3em;
+  color: white;
+  box-sizing: 1px 1px 1px 1px;
+}
+button {
+  background: rgb(7, 62, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 62, 156, 1) 0%,
+    rgba(2, 0, 36, 1) 39%,
+    rgba(9, 9, 121, 1) 97%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+  width: 10em;
+  height: 2em;
+  margin-top: 2em;
+  margin-left: 46em;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 1px;
+  cursor: pointer;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.new {
+  background: rgb(7, 62, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 62, 156, 1) 0%,
+    rgba(2, 0, 36, 1) 39%,
+    rgba(9, 9, 121, 1) 97%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 50%;
+  height: 4em;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 3em;
+  color: white;
+  box-sizing: 1px 1px 1px 1px;
+}
+#new-quote {
+  margin-top: 0.8em;
+}
+#new-author {
+  margin-top: 0.5em;
+}
+#link {
+  display: flex;
+  justify-content: center;
+  background: rgb(7, 62, 156);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 62, 156, 1) 0%,
+    rgba(2, 0, 36, 1) 39%,
+    rgba(9, 9, 121, 1) 97%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 8em;
+  height: 2em;
+  padding-top: 5px;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-decoration: none;
+  color: white;
+  box-shadow: 1px 1px 1px 1px;
+}
